@@ -10,13 +10,12 @@ I am Jaidev, and this website serves as a platform to showcase my professional a
 Feel free to reach out to me through the following channels:
 
 - Email:jaidev yadav
-- Phone: 70072945
 
 I'm open to collaborations, feedback, or just a friendly chat.
 
 ## Social Media
 Connect with me on various social media platform
-- [Instagram](https://www.instagram.com/jaidev.xr)
+- [Instagram](https://www.instagram.com/jaidev.xx)
 
 Stay updated on my latest projects, thoughts, and adventures.
 
