@@ -98,7 +98,7 @@ html{
 }
 .secondHalf img{
     width: 70%;
-    border: 4px solid white;
+    border: 3px solid white;
     border-radius: 150px;
     display: block;
     margin: auto;
@@ -317,7 +317,17 @@ html{
     .paras{
         padding: 0px;
     }
-    .background{
-        background-position: center center;
+        .secondHalf img{
+        width: 40%;
+        border: 1px solid white;
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .background {
+        background-size: cover; /* Cover the entire viewport on mobile devices */
+        background-position: center center; /* Center the background image */
     }
 }
