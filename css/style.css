@@ -317,4 +317,7 @@ html{
     .paras{
         padding: 0px;
     }
+    .background{
+        background-position: center center;
+    }
 }
