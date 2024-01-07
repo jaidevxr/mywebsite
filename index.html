@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jaidev Website</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/Imglogo.png" alt="logo"></div>
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <!-- Social Accounts Dropdown -->
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Social Accounts</a>
+                <div class="dropdown-content">
+                    <a href="https://www.instagram.com/jaidev.xx">Instagram</a>
+                    <a href="https://twitter.com/rjjai061">Twitter</a>
+                    <a href="https://t.me/jaidevxr">Telegram</a>
+                </div>
+            </li>
+            <li> <a href="#contact">Contact Me</a> </li>
+        </ul>
+    
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm" onclick="search()">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Explore Jaidev's digital Realm</p>
+                <p class="text-small">Crafting Code,Graphic Mastery and Editing Wizardry - Unveiling the fusion of Technology and Creativity</p>
+                <div class="buttons">
+                    <button class="btn follow-btn" onclick="redirectToInstagram()">Follow</button>
+                    <button class="btn email-btn" onclick="openGmail()">Hire me</button>
+
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="img/Personal.jpg" alt="Image">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">
+            JAIDEV YADAV
+        </p>
+        <p class="sectionSubTag text-small">
+            I'm Jaidev ,a dedicated coder intrigued by learning new things
+            and proficient in languages like C,PHYTHON and MYSQL.
+            With meticulous attention to detail and a creative flair, 
+            I see myself as a coding and editing maestro, always aiming 
+            to blend innovation and functionality in each project. 
+            My journey is fueled by a constant curiosity, driving me to 
+            and enhance my skill set.
+        </p></div>
+        <div class="thumbnail">
+            <img src="img/Thumbnail.png" alt="admin Image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">
+            LANGUAGES KNOWN
+        </p>
+        <p class="sectionSubTag text-big">
+            <p style="list-style-type: disc; margin-bottom: 10px;">• C</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• PHYTHON</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• MySql</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• HTML/CSS(currently learning)</p>
+       
+       
+        </p></div>
+        <div class="thumbnail-second">
+            <img src="img/Languagelogo.png" alt="admin Image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">
+            REASONS TO COLLABORATE WITH ME
+        </p>
+        <p class="sectionSubTag text-small">
+            <p style="list-style-type: disc; margin-bottom: 10px;">• Offering a keen eye for detail,
+                 I bring a strong editorial background to enhance and refine content, ensuring it meets the highest standards.</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• As an editor, I don't just correct; I contribute creatively. I'm passionate about making content not just error-free, but engaging and impactful.</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• I thrive on finding solutions. Whether it's editing, coding, or problem-solving, I approach challenges with efficiency and a commitment to quality.</p>
+            <p style="list-style-type: disc; margin-bottom: 10px;">• Beyond editing, my skills extend to coding and creative work, providing a versatile set of capabilities for a holistic approach to projects.</p>
+        
+        </div>
+        </p></div>
+        <div class="thumbnail">
+            <img src="img/Worklogo.jpg" alt="admin Image" class="imgFluid">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="text-center"> Contact Me for COLLABORATION</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your Email">
+            <textarea class="form-input" name="text" id="text" rows="10" cols="30" placeholder="Elaborate your work"></textarea>
+            <button class="btn btn-sm btn-dark" onclick="submitForm()">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 - All rights reserved
+        </p>
+    </footer> 
+    <script src="js/resp.js"></script>
+</body>
+</html>
